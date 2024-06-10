@@ -10,7 +10,7 @@ def clear():
 reload="source ~/.bashrc"
 
 def main():
-    f=open("/home/piramide/.bashrc", "a")
+    f=open("~/.bashrc", "a")
     clear()
     print("\n ALIAS CREATOR")
     name=str(input("\n Enter alias name: "))
